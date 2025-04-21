@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K&R COMPANY LIMITED - 美妆批发专家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>K&R COMPANY</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav.home">首页</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+                    <li><a href="products.html" data-i18n="nav.products">产品展示</a></li>
+                    <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="zh-CN">简体中文</option>
+                    <option value="zh-TW">繁體中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="home.hero.title">全球美妆批发专家</h1>
+                <p data-i18n="home.hero.subtitle">为您提供优质化妆品批发服务，连接东亚及东南亚市场</p>
+                <a href="products.html" class="btn" data-i18n="home.hero.button">浏览产品</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.features.title">我们的优势</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h3 data-i18n="home.features.global.title">全球采购网络</h3>
+                    <p data-i18n="home.features.global.desc">我们与全球顶级美妆品牌建立了强大的合作关系，确保产品质量和价格优势</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3 data-i18n="home.features.shipping.title">高效物流配送</h3>
+                    <p data-i18n="home.features.shipping.desc">完善的物流网络，确保产品快速安全送达中国大陆、香港、台湾及东南亚市场</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-gem"></i>
+                    <h3 data-i18n="home.features.quality.title">品质保证</h3>
+                    <p data-i18n="home.features.quality.desc">所有产品均经过严格品控，确保每一件商品都符合最高质量标准</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3 data-i18n="home.features.service.title">专业服务</h3>
+                    <p data-i18n="home.features.service.desc">提供一站式采购解决方案，专业团队为您提供个性化服务</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="platforms">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.platforms.title">我们的销售平台</h2>
+            <p class="section-desc" data-i18n="home.platforms.desc">K&R COMPANY在多个主流电商平台设有官方店铺，为您提供便捷的采购体验</p>
+            <div class="platform-logos">
+                <div class="platform"><img src="images/platform-douyin.svg" alt="抖音"><span data-i18n="home.platforms.douyin">抖音</span></div>
+                <div class="platform"><img src="images/platform-xiaohongshu.svg" alt="小红书"><span data-i18n="home.platforms.xiaohongshu">小红书</span></div>
+                <div class="platform"><img src="images/platform-yangmatou.svg" alt="洋码头"><span data-i18n="home.platforms.yangmatou">洋码头</span></div>
+                <div class="platform"><img src="images/platform-pinduoduo.svg" alt="拼多多"><span data-i18n="home.platforms.pinduoduo">拼多多</span></div>
+                <div class="platform"><img src="images/platform-kaola.svg" alt="考拉"><span data-i18n="home.platforms.kaola">考拉</span></div>
+                <div class="platform"><img src="images/platform-tmall.svg" alt="天猫国际"><span data-i18n="home.platforms.tmall">天猫国际</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.categories.title">产品类别</h2>
+            <div class="category-grid">
+                <a href="products.html#skincare" class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-skincare.jpg" alt="护肤品">
+                    </div>
+                    <h3 data-i18n="home.categories.skincare">护肤品</h3>
+                </a>
+                <a href="products.html#makeup" class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-makeup.jpg" alt="彩妆">
+                    </div>
+                    <h3 data-i18n="home.categories.makeup">彩妆</h3>
+                </a>
+                <a href="products.html#fragrance" class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-fragrance.jpg" alt="香水">
+                    </div>
+                    <h3 data-i18n="home.categories.fragrance">香水</h3>
+                </a>
+                <a href="products.html#haircare" class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-haircare.jpg" alt="美发护发">
+                    </div>
+                    <h3 data-i18n="home.categories.haircare">美发护发</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-i18n="home.cta.title">开始您的美妆批发业务</h2>
+                <p data-i18n="home.cta.desc">联系我们获取最新产品目录和价格信息</p>
+                <a href="contact.html" class="btn" data-i18n="home.cta.button">立即联系</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>K&R COMPANY</h2>
+                    <p data-i18n="footer.tagline">您的美妆批发合作伙伴</p>
+                </div>
+                <div class="footer-contact">
+                    <h3 data-i18n="footer.contact">联系方式</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer.address">香港观塘京业街61-63号丽仁大厦1楼122室</span></p>
+                    <p><i class="fas fa-phone"></i> 852 56321674</p>
+                    <p><i class="fas fa-envelope"></i> krcompany6@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-i18n="footer.quicklinks">快速链接</h3>
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">产品展示</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 K&R COMPANY LIMITED. <span data-i18n="footer.rights">版权所有</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html> 

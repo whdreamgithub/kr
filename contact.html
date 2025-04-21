@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - K&R COMPANY LIMITED</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>K&R COMPANY</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+                    <li><a href="products.html" data-i18n="nav.products">产品展示</a></li>
+                    <li><a href="contact.html" class="active" data-i18n="nav.contact">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="zh-CN">简体中文</option>
+                    <option value="zh-TW">繁體中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+   
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 data-i18n="contact.address.title">公司地址</h3>
+                    <p data-i18n="contact.address.line">香港观塘京业街61-63号丽仁大厦1楼122室</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 data-i18n="contact.phone.title">联系电话</h3>
+                    <p>852 56321674</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 data-i18n="contact.email.title">电子邮箱</h3>
+                    <p>krcompany6@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 data-i18n="contact.hours.title">营业时间</h3>
+                    <p data-i18n="contact.hours.time">周一至周五: 9:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.map.title">我们的位置</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.1036678771137!2d114.22345231495457!3d22.31089848531569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040146a32c3253%3A0x1de9e54467824b60!2s61-63%20King%20Yip%20St%2C%20Kwun%20Tong%2C%20Hong%20Kong!5e0!3m2!1sen!2s!4v1629350425631!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2 class="section-title" data-i18n="contact.form.title">联系表单</h2>
+                <p data-i18n="contact.form.desc">如有任何问题或需求，请填写以下表单，我们将尽快回复您</p>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-i18n="contact.form.company">公司</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.email">电子邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contact.form.phone">电话</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-i18n="contact.form.subject">主题</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="contact.form.message">消息</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" data-i18n="contact.form.submit">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.faq.title">常见问题</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contact.faq.q1">你们提供哪些产品？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contact.faq.a1">我们提供多种美妆产品，包括护肤品、彩妆、香水和护发产品等。我们与全球知名品牌合作，确保所有产品都是正品且品质优良。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contact.faq.q2">如何获取产品价格和目录？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contact.faq.a2">您可以通过填写我们网站上的询价表单或直接发送电子邮件至krcompany6@gmail.com获取最新的产品价格和目录。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contact.faq.q3">你们的最低起订量是多少？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contact.faq.a3">我们的最低起订量根据不同产品而有所不同。请联系我们的销售团队获取具体信息。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contact.faq.q4">你们提供哪些付款方式？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contact.faq.a4">我们接受银行转账、PayPal和其他主要的国际支付方式。具体付款方式会在订单确认后提供。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contact.faq.q5">你们能发货到哪些国家或地区？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contact.faq.a5">我们主要服务中国大陆、香港、台湾和东南亚地区的客户，但也可以根据需求安排到其他国家和地区的配送。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>K&R COMPANY</h2>
+                    <p data-i18n="footer.tagline">您的美妆批发合作伙伴</p>
+                </div>
+                <div class="footer-contact">
+                    <h3 data-i18n="footer.contact">联系方式</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer.address">香港观塘京业街61-63号丽仁大厦1楼122室</span></p>
+                    <p><i class="fas fa-phone"></i> 852 56321674</p>
+                    <p><i class="fas fa-envelope"></i> krcompany6@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-i18n="footer.quicklinks">快速链接</h3>
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">产品展示</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 K&R COMPANY LIMITED. <span data-i18n="footer.rights">版权所有</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html> 
