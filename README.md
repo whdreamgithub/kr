@@ -1,4 +1,5 @@
 # K&R COMPANY LIMITED 官方网站
+https://knrcos.com/
 
 这是K&R COMPANY LIMITED的官方网站项目代码。该网站主要展示公司信息、产品和联系方式，支持多语言切换功能。
 
