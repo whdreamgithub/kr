@@ -313,7 +313,7 @@ const translations = {
             },
             inquiry: {
                 title: '批发询价',
-                desc: '我们为批发客户提供优惠的价格和完善的服务。如需了解更多产品信息或获取报价，请填写以下信息，我们的销售团队将尽快与您联系。',
+                desc: '我们为批发客户提供优惠价格和全面服务。如需获取更详细的产品信息，包括我们涵盖医疗保健领域的手套、长袍和口罩系列，或获取报价，请填写下方信息，我们的销售团队将尽快与您联系。',
                 company: '公司名称',
                 contact: '联系人',
                 email: '电子邮箱',
@@ -881,7 +881,7 @@ const translations = {
             },
             inquiry: {
                 title: 'Wholesale Inquiry',
-                desc: 'We provide favorable prices and comprehensive services for wholesale customers. For more product information or to get a quote, please fill in the information below, and our sales team will contact you as soon as possible.',
+                desc: 'We provide favorable prices and comprehensive services for wholesale customers. For expanded product information including our health care line of gloves, gowns and masks or to get a quote, please fill in the information below, and our sales team will contact you as soon as possible.',
                 company: 'Company Name',
                 contact: 'Contact Person',
                 email: 'Email',
